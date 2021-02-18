@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Conversor de divisa</title>
+</head>
+<body>
+    <section>
+        <article>
+    <form action="conversor.php" method="POST" name=”conversor”>  
+        <h1>Mi conversor<img src="img/calculadora.png" alt="calcu" width="50"height="50"></h1>
+        <h2> Introduzca la cantidad a convertir: </h2><br />
+        
+        <input type="text" name="valor" class="campo"/> <br /> <br />   
+               
+            <h2> Selecciona tu moneda: </h2>        
+            <img src="img/estados-unidos.png" alt="usa"width="35" height="35">
+<img src="img/union-europea.png" alt="euro" width="35" height="35">
+<img src="img/japon.png" alt="jap"width="35" height="35">
+<img src="img/reino-unido.png" alt="rei"width="35" height="35">
+    </br>
+</br>
+            <select name="lista1" class="l1">           
+                <option value="1">Dolar</option>
+                <option value="2">Euro</option>
+                <option value="3">Yen</option>
+                <option value="4">Libra Esterlina</option>
+                
+            </select>
+        <br />
+            
+            <h2> Selecciona la moneda que requieres:</h2>
+            <img src="img/estados-unidos.png" alt="usa"width="35" height="35">
+            <img src="img/union-europea.png" alt="euro" width="35" height="35">
+            <img src="img/japon.png" alt="jap"width="35" height="35">
+            <img src="img/reino-unido.png" alt="rei"width="35" height="35">
+                </br>
+            </br>
+        
+        <select name="lista2" class="l2">             
+                
+            <option value="1">Dolar</option>
+            <option value="2">Euro</option>
+            <option value="3">Yen</option>
+            <option value="4">Libra Esterlina</option>
+                
+            </select>
+             <br /> <br />
+            
+             <input type="submit" value="Enviar" class="btn1">  
+<input type="reset" value="Restablecer" class="btn2">
+    
+     
+    </form>
+</section>
+</article>
+</body>
+</html>
